@@ -1,0 +1,16 @@
+{"timestamp": "2026-02-02T08:41:04.402961", "level": "INFO", "message": "MirageFTP started on 0.0.0.0:2121"}
+{"timestamp": "2026-02-02T08:41:05.365887", "level": "INFO", "message": "New connection", "client_ip": "127.0.0.1"}
+{"timestamp": "2026-02-02T08:41:05.366457", "level": "INFO", "message": "Command received: USER admin", "client_ip": "127.0.0.1", "user": null, "command": "USER"}
+{"timestamp": "2026-02-02T08:41:06.311409", "level": "INFO", "message": "Command received: PASS password123", "client_ip": "127.0.0.1", "user": "admin", "command": "PASS"}
+{"timestamp": "2026-02-02T08:41:08.053732", "level": "INFO", "message": "Login successful", "client_ip": "127.0.0.1", "user": "admin"}
+{"timestamp": "2026-02-02T08:41:08.054057", "level": "INFO", "message": "Command received: TYPE A", "client_ip": "127.0.0.1", "user": "admin", "command": "TYPE"}
+{"timestamp": "2026-02-02T08:41:09.310843", "level": "INFO", "message": "Command received: PASV ", "client_ip": "127.0.0.1", "user": "admin", "command": "PASV"}
+{"timestamp": "2026-02-02T08:41:10.233967", "level": "INFO", "message": "Command received: LIST ", "client_ip": "127.0.0.1", "user": "admin", "command": "LIST"}
+{"timestamp": "2026-02-02T08:41:12.086163", "level": "INFO", "message": "Command received: CWD /var/www", "client_ip": "127.0.0.1", "user": "admin", "command": "CWD"}
+{"timestamp": "2026-02-02T08:41:12.816135", "level": "INFO", "message": "Command received: TYPE A", "client_ip": "127.0.0.1", "user": "admin", "command": "TYPE"}
+{"timestamp": "2026-02-02T08:41:14.361869", "level": "INFO", "message": "Command received: PASV ", "client_ip": "127.0.0.1", "user": "admin", "command": "PASV"}
+{"timestamp": "2026-02-02T08:41:15.520988", "level": "INFO", "message": "Command received: LIST ", "client_ip": "127.0.0.1", "user": "admin", "command": "LIST"}
+{"timestamp": "2026-02-02T08:41:16.062451", "level": "INFO", "message": "Command received: TYPE I", "client_ip": "127.0.0.1", "user": "admin", "command": "TYPE"}
+{"timestamp": "2026-02-02T08:41:17.287782", "level": "INFO", "message": "Command received: PASV ", "client_ip": "127.0.0.1", "user": "admin", "command": "PASV"}
+{"timestamp": "2026-02-02T08:41:17.806305", "level": "INFO", "message": "Command received: RETR www", "client_ip": "127.0.0.1", "user": "admin", "command": "RETR"}
+{"timestamp": "2026-02-02T08:41:19.609156", "level": "INFO", "message": "Command received: QUIT ", "client_ip": "127.0.0.1", "user": "admin", "command": "QUIT"}
