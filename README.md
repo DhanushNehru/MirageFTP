@@ -27,7 +27,7 @@
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/MirageFTP.git
+   git clone https://github.com/DhanushNehru/MirageFTP.git
    cd MirageFTP
    ```
 
@@ -49,6 +49,36 @@ BANNER = "..."         # Custom FTP Banner
 MIN_DELAY = 0.5        # Minimum Tarpit delay (seconds)
 MAX_DELAY = 2.0        # Maximum Tarpit delay (seconds)
 ```
+
+## 🐳 Docker Support
+
+You can essentially run MirageFTP anywhere using Docker.
+
+### Using Docker Compose (Recommended)
+
+1. Build and run in the background:
+   ```bash
+   docker-compose up -d --build
+   ```
+2. View the logs (live attack stream):
+   ```bash
+   docker-compose logs -f
+   ```
+3. Stop the honeypot:
+   ```bash
+   docker-compose down
+   ```
+
+### Using Standard Docker
+
+1. Build the image:
+   ```bash
+   docker build -t mirageftp .
+   ```
+2. Run the container:
+   ```bash
+   docker run -d -p 2121:2121 --name mirage mirageftp
+   ```
 
 ## 🕹 Usage
 

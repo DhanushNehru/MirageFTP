@@ -1,0 +1,16 @@
+version: '3.8'
+
+services:
+  mirage-ftp:
+    build: .
+    container_name: mirage_ftp
+    ports:
+      - "2121:2121"
+    restart: always
+    # Uncomment to view logs directly or use 'docker logs -f mirage_ftp'
+    # tty: true
+    deploy:
+      resources:
+        limits:
+          cpus: '0.50'
+          memory: 128M
